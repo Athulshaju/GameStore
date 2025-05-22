@@ -1,10 +1,15 @@
 GET http://localhost:5000/games
 ###
 
-GET http://localhost:5000/games/2
+GET http://localhost:5000/games/1
 
 
 ### 
+
+###
+
+GET http://localhost:5000/genres
+###
 
 POST http://localhost:5000/games
 Content-Type: application/json

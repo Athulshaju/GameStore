@@ -38,7 +38,7 @@ public static class GameMapping
         );
     }
 
-    public static Game ToEntity(this UpdateGameDto game,int id)
+    public static Game ToEntity(this UpdateGameDto game, int id)
     {
         return new Game()
         {
@@ -49,5 +49,7 @@ public static class GameMapping
             ReleaseDate = game.ReleaseDate
         };
     }
+    
+    
 }
 
