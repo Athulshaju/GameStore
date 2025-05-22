@@ -1,0 +1,32 @@
+GET http://localhost:5000/games
+###
+
+GET http://localhost:5000/games/2
+
+
+### 
+
+POST http://localhost:5000/games
+Content-Type: application/json
+
+{
+  "name": "Valorant",
+  "genreId": 3,
+  "price": 29.99,
+  "releaseDate": "2015-11-18"
+}
+
+###
+
+PUT http://localhost:5000/games/5
+Content-Type: application/json
+
+{
+  "name": "GTA V",
+  "genre": "Adult",
+  "price": 19.99,
+  "releaseDate": "2015-11-18"
+}   
+
+###
+DELETE http://localhost:5000/games/2
